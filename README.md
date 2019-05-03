@@ -1,76 +1,39 @@
-![](https://user-images.githubusercontent.com/418820/33816754-3e528ad8-de76-11e7-8558-bfad8b75b4d9.png)
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/midwayjs/pandora/blob/master/LICENSE)
-[![GitHub tag](https://img.shields.io/github/tag/midwayjs/pandora.svg)]()
-[![Build Status](https://travis-ci.org/midwayjs/pandora.svg?branch=develop)](https://travis-ci.org/midwayjs/pandora)
-[![Test Coverage](https://img.shields.io/codecov/c/github/midwayjs/pandora/master.svg)](https://codecov.io/gh/midwayjs/pandora/branch/master)
-[![Package Quality](http://npm.packagequality.com/shield/pandora.svg)](http://packagequality.com/#?package=pandora)
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
-[![Known Vulnerabilities](https://snyk.io/test/npm/pandora/badge.svg)](https://snyk.io/test/npm/pandora)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/midwayjs/pandora/pulls)
-
-## Installation
-
-```bash
-$ npm install -g pandora
-```
-
-Node.js >= 8.2.1 required.
-
-## Introductions and start with an example project
-
-* [Node.js Ops First with Pandora.js, Today](https://github.com/midwayjs/pandora/wiki/Node.js-Ops-First-with-Pandora.js,-Today)
-* [Pandora.js 专业的 Node.js 应用监控管理器，阿里开源](https://github.com/midwayjs/pandora/wiki/Pandora.js---%E4%B8%93%E4%B8%9A%E7%9A%84-Node.js-%E5%BA%94%E7%94%A8%E7%9B%91%E6%8E%A7%E7%AE%A1%E7%90%86%E5%99%A8%EF%BC%8C%E9%98%BF%E9%87%8C%E5%BC%80%E6%BA%90)
-* <a href="http://www.youtube.com/watch?feature=player_embedded&v=5bWCJi5gPqI
-" target="_blank">Video Introduction <br/> <img src="http://img.youtube.com/vi/5bWCJi5gPqI/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-## Docs
-
-* 中文文档 <http://www.midwayjs.org/pandora/zh-cn/>
-* English documents <http://www.midwayjs.org/pandora/>
-
-## What is Pandora.js ?
-
-As a consequence of years of experiences on enterprise Node.js applications management, Midway team from Alibaba open-sourced Pandora.js finally. It is an application manager integrates many capabilities like monitoring, debugging, resiliency. You are more than welcome to use it, as well as build your operation infrastructure upon it.
-
-The main concepts of Pandora.js are:
-
-1. Manageable
-    * Standard management capabilities of applications, processes and basic services (such as middleware).
-    * Graceful online/offline.
-    * Inter-process object proxying.
-2. Measurable
-    * Be able to measure different aspects of applications.
-    * Support tons of metrics types, gauge, counter, meter, histogram, etc.
-3. Traceable
-    * Be able to trace the whole execution stack, inspect applications at runtime.
-    * Support tons of 3rd party middlewares, MySQL, redis, etc. 
-    * Compatible with Open-Tracing standard
-4. Highly available
-    * Provides mechanism to mock middleware failures, aims to enhance system resilience.
-    * Do trouble shooting by remote debugging.
 
 
-The data can be achieved via RESTFul API or local file system. It is super easy to integrate it with your monitoring system.
+# 代理使用几个雷区？踩到雷都后悔莫及！
 
-## Features
 
-- ✔︎ Built-in process management
-- ✔︎ Dev Ops customization
-- ✔︎ Provide Metrics and Standard OpenTracing Implementation
-- ✔︎ Support lots of web frameworks
 
-## How to Contribute
+ **在中国，政治领导一切。**
 
-Please let us know how can we help. Do check out [issues](https://github.com/midwayjs/pandora/issues) for bug reports or suggestions first.
+那我们从政治出发，假设你是中国政府的政治家，你一开始就不想你的人民看到 Google、YouTube。对，我们从历史上看，祖国做了全球最大的防火墙，你在国内看不到你想看的。
 
-To become a contributor, please follow our [contributing guide](CONTRIBUTING.md).
+ 这时候，又有少部分人开始通过代理翻过墙，去看他们想看的。如果你是国内政治下网络安全小组，你会怎么办？当然是阻止呀！
 
-## License
+ 怎么阻止呢？那我怎么知道谁是用了代理、翻了墙呢？
 
-[MIT](LICENSE)
+代理有一个特性——如果使用代理后、你的流量身份是国外的，并非国内，这很重要。
 
-## Sponsor
+ 如果我想阻挡你上外网，会有哪些方法呢？
 
-<a target="_blank" href="http://opensource.alibaba.com/" ><img src="https://img.alicdn.com/tfs/TB14aTMbgmTBuNjy1XbXXaMrVXa-328-134.jpg" width="123" /></a>
+ **重点——找出用代理的人！并切断你的代理连接！**
+
+ 1、观察你的网络访问历史记录、如果你经常用国内浏览器上Google、YouTube。那我作为一个政府旗下网络小组成员、可以直接调取国内所有浏览器、及杀毒软件监控到你的访问记录，你上了什么网页、看了什么视频，我直接找国内浏览器与监控软件公司要就好了，因为我有最高权力让他们必须与我合作，否者退出市场嘛——监控你访问数据，通过国内浏览器与杀毒软件合作
+
+ 2、如果你连上了代理、代理本身特性、你已经从国内变成国外的身份IP了。这时候如果你访问任何国内网站、及国内应用。都是一个代理的IP，而并非中国大陆的IP。你要知道，国内所有的网络公司背后的物理服务器必须架设在中国，这样做的目的。是我可以知道哪些连着代理的人，突然有一天想不开，跑去连在国内网络服务，他只要不是大陆IP，他一直是国外IP用着国内的服务、比如微信、淘宝、百度。那找你简直轻而易举——通过你异常国外流访问国内网络应用量判断你是否使用代理
+
+ 3、还有一种就是通过硬件设备植入后台软件监控你的访问数据，比如国产手机、电脑、甚至路由器。比如我提议政府与国内卖手机、卖电脑卖的好公司合作。收集他们采集到的用户数据，作为参考之一，判断你是否上外网。——监控你访问数据，通过与卖硬件电子设备合作
+
+ 只要能找到你上了外网的证据、无论是流量、浏览器访问记录、杀毒软件监控到的记录、系统记录的。我不关心什么，我只需要切断你与代理之间的联系，让你上不了外网！这是权力该做的事情，统一战线，执行政策！
+
+
+
+\* 不要安装任何国产浏览器、和任何国产杀毒软件。
+
+\* 不要用手机打开代理连接后、去访问任何国内APP、及国内网页！
+
+\* 不要用电脑开启全局代理模式，访问国内任何网页！同理
+
+\* (全局模式指流量全部走代理、自动部分走。手机客户端只有全局、自动都是扯淡)
+
+\* 如果可以，请不要用国产与网络有连接电子设备
